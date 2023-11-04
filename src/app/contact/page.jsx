@@ -18,7 +18,7 @@ const Contact = () => {
           <h2>GRC - GEM RESEARCH CENTER</h2>
           <p>Email：lgem@gemresearchcenter.com</p>
           <h2>ADD：RM18S 27/F HO KING COMM CTR 2-16 FAYUEN ST MONGKOK KL</h2>
-          <p>http://gemresearchcenter.com/</p>
+          <p>https://gemresearchcenter.com/</p>
         </div>
       </div>
     </div>
