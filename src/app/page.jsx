@@ -17,7 +17,7 @@ const Check = () => {
       return;
     }
     localStorage.setItem("codeNumber", codeNumber);
-    router.push("/about");
+    router.push("/certificate");
   };
 
   // if (codeNumber === passcode) {
