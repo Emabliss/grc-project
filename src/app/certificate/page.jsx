@@ -16,7 +16,7 @@ const Certificate = () => {
       if (typeof window !== "undefined") {
         window.location.reload();
       }
-    }, 5000);
+    }, 1800000);
     return () => clearTimeout(timeoutId);
   }, []);
 
