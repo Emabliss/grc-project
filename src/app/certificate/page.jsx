@@ -12,9 +12,10 @@ const Certificate = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       localStorage.removeItem("codeNumber");
-      window?.location.reload();
-      // router.push("/");
-    }, 1800000);
+      // if (typeof window !== "undefined") {
+      //   window.location.reload();
+      // }
+    }, 5000);
     return () => clearTimeout(timeoutId);
   }, []);
 

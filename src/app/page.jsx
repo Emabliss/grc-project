@@ -11,6 +11,7 @@ const Check = () => {
   const router = useRouter();
 
   const handleClick = () => {
+    console.log("clicked");
     if (codeNumber !== passcode) {
       alert("Wrong Passcode");
       return;
