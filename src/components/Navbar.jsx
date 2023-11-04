@@ -27,12 +27,14 @@ const Navbar = () => {
   return (
     <div className="border-t-4 border-[#c7ba70] sticky top-0 z-10 bg-white">
       <div className="w-[80%] mx-auto flex justify-between items-center">
-        <Image
-          src="/companyLogo.jpg"
-          alt=""
-          width={100}
-          height={100}
-        />
+        <Link href="/">
+          <Image
+            src="/companyLogo.jpg"
+            alt=""
+            width={100}
+            height={100}
+          />
+        </Link>
         <div className="gap-5 text-xl hidden md:flex">
           {links.map((link) => (
             <Link
