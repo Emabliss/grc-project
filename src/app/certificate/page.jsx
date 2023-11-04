@@ -1,28 +1,28 @@
-"use client";
+// "use client";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
-import { useAuth } from "../../context/AuthContext";
+// import { useRouter } from "next/navigation";
+// import { useAuth } from "../../context/AuthContext";
 
 const Certificate = () => {
-  const { codeNumber } = useAuth();
+  // const { codeNumber } = useAuth();
 
-  const router = useRouter();
+  // const router = useRouter();
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      localStorage.removeItem("codeNumber");
-      // if (typeof window !== "undefined") {
-      //   window.location.reload();
-      // }
-    }, 5000);
-    return () => clearTimeout(timeoutId);
-  }, []);
+  // useEffect(() => {
+  //   const timeoutId = setTimeout(() => {
+  //     localStorage.removeItem("codeNumber");
+  //     if (typeof window !== "undefined") {
+  //       window.location.reload();
+  //     }
+  //   }, 5000);
+  //   return () => clearTimeout(timeoutId);
+  // }, []);
 
-  if (!codeNumber) {
-    router.push("/");
-    return;
-  }
+  // if (!codeNumber) {
+  //   router.push("/");
+  //   return;
+  // }
 
   return (
     <div className="min-h-[90vh]">
@@ -35,8 +35,7 @@ const Certificate = () => {
       </div>
       <div className="w-[70%] mx-auto pt-10 pb-20 md:pb-36 btw:pt-28">
         <h3 className="text-center mb-10">
-          Your current location: <strong>{codeNumber}</strong>. The results of
-          the query
+          Your current location: <strong>8888</strong>. The results of the query
         </h3>
         <h2 className="text-center text-2xl ">Certificate</h2>
         <div className="w-[90px] h-1 bg-[#c7ba70] mx-auto"></div>

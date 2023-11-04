@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "../context/AuthContext";
 
-const passcode = "123443";
+const passcode = process.env.SECRET_KEY;
 const Check = () => {
   const { codeNumber, setCodeNumber } = useAuth();
 
