@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import { useAuth } from "../../context/AuthContext";
 
 const Certificate = () => {
