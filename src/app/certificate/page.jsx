@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-// import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useAuth } from "../../context/AuthContext";
 
 const Certificate = () => {
   const { codeNumber } = useAuth();
 
-  // const router = useRouter();
+  const router = useRouter();
 
   // useEffect(() => {
   //   const timeoutId = setTimeout(() => {
@@ -19,10 +19,10 @@ const Certificate = () => {
   //   return () => clearTimeout(timeoutId);
   // }, []);
 
-  // if (!codeNumber) {
-  //   router.push("/");
-  //   return;
-  // }
+  if (!codeNumber) {
+    router.push("/");
+    return;
+  }
 
   return (
     <div className="min-h-[90vh]">
