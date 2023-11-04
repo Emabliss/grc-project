@@ -35,7 +35,8 @@ const Certificate = () => {
       </div>
       <div className="w-[70%] mx-auto pt-10 pb-20 md:pb-36 btw:pt-28">
         <h3 className="text-center mb-10">
-          Your current location: <strong>8888</strong>. The results of the query
+          Your current location: <strong>{codeNumber}</strong>. The results of
+          the query
         </h3>
         <h2 className="text-center text-2xl ">Certificate</h2>
         <div className="w-[90px] h-1 bg-[#c7ba70] mx-auto"></div>
