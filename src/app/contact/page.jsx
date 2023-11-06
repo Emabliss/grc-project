@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="pt-10 pb-20 md:pb-36 btw:pt-28">
         <h2 className="text-center text-2xl ">Contact</h2>
         <div className="w-[90px] h-1 bg-[#c7ba70] mx-auto mb-7"></div>
-        <div className="w-1/2 mx-auto text-center space-y-2">
+        <div className="md:w-3/4 lg:w-1/2 mx-auto text-center space-y-2">
           <h2>GRC - GEM RESEARCH CENTER</h2>
           <p>Email：lgem@gemresearchcenter.com</p>
           <h2>ADD：RM18S 27/F HO KING COMM CTR 2-16 FAYUEN ST MONGKOK KL</h2>
