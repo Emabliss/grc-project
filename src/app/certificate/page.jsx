@@ -56,7 +56,7 @@ const Certificate = () => {
           <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className=" flex-1">GRC Report Number</span>
-              <span className=" flex-1 font-semibold">LG447093223</span>
+              <span className=" flex-1 font-semibold">{codeNumber}</span>
             </div>
             {/* <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Shape and Cutting Style</span>
