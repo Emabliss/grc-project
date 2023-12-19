@@ -50,26 +50,29 @@ const Certificate = () => {
             />
           </div>
           <h2 className="bg-[#c7ba70] p-2 text-slate-600 font-semibold">
-            GRADING REPORT
+            GRC GEMOLOGICAL REPORT
           </h2>
-          <div className="flex flex-col space-y-3 pt-1 pl-1">
-            <div className="flex justify-between w-[90%]">
-              <span className=" flex-1 font-semibold">Weight</span>
-              <span className=" flex-1">0.9g</span>
+          <p className="my-2">11/05/2020</p>
+          <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className=" flex-1">GRC Report Number</span>
+              <span className=" flex-1 font-semibold">LG447093223</span>
             </div>
-            <div className="flex justify-between w-[90%]">
-              <span className="flex-1 font-semibold">Item</span>
-              <span className="flex-1">Faceted Diamond</span>
+            {/* <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Shape and Cutting Style</span>
+              <span className="flex-1 font-semibold">ROUND BRILLIANT</span>
+            </div> */}
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Measurements</span>
+              <span className="flex-1 font-semibold">
+                7.06d - 7.16 X 4.59 MM
+              </span>
             </div>
-            <div className="flex justify-between w-[90%]">
-              <span className="flex-1 font-semibold">Shape</span>
-              <span className="flex-1">Round</span>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Cut</span>
+              <span className="flex-1 font-semibold">Brilliant</span>
             </div>
-            <div className="flex justify-between w-[90%]">
-              <span className="flex-1 font-semibold">Cut</span>
-              <span className="flex-1">Brilliant</span>
-            </div>
-            <div className="flex justify-between w-[90%]">
+            {/* <div className="flex justify-between w-[90%]">
               <span className="flex-1 font-semibold">Color</span>
               <span className="flex-1">Silver</span>
             </div>
@@ -80,8 +83,52 @@ const Certificate = () => {
             <div className="flex justify-between w-[90%]">
               <span className="flex-1 font-semibold">Dimensions</span>
               <span className="flex-1">****</span>
+            </div> */}
+          </div>
+          <h2 className="mt-4 font-semibold">GRADING RESULTS</h2>
+          <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Carat Weight</span>
+              <span className="flex-1 font-semibold">1.50 CARAT</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Color Grade</span>
+              <span className="flex-1 font-semibold">H-1</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Clarity Grade</span>
+              <span className="flex-1 font-semibold">WS</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Cut Grade</span>
+              <span className="flex-1 font-semibold">V. GOOD</span>
             </div>
           </div>
+          <h2 className="mt-4 font-semibold">ADDITIONAL GRADING INFORMATION</h2>
+          <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Polish</span>
+              <span className="flex-1 font-semibold">EXCELLENT</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Symmetry</span>
+              <span className="flex-1 font-semibold">GOOD</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Fluorescence</span>
+              <span className="flex-1 font-semibold">NONE</span>
+            </div>
+            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+              <span className="flex-1">Inscription(s)</span>
+              <span className="flex-1 font-semibold">
+                lagbaronGrc4256725623
+              </span>
+            </div>
+          </div>
+          <p className="mt-8">
+            Comments: This laboratory grown diamond was created by <br /> high
+            pressure high temperature process(HPHT). <br /> Type II
+          </p>
         </div>
       </div>
     </ProtectedRoute>
