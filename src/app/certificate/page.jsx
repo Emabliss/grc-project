@@ -89,7 +89,7 @@ const Certificate = () => {
           <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Carat Weight</span>
-              <span className="flex-1 font-semibold">1.50 CARAT</span>
+              <span className="flex-1 font-semibold">1.05 CARAT</span>
             </div>
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Color Grade</span>
@@ -97,7 +97,7 @@ const Certificate = () => {
             </div>
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Clarity Grade</span>
-              <span className="flex-1 font-semibold">WS</span>
+              <span className="flex-1 font-semibold">Vvs</span>
             </div>
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Cut Grade</span>
@@ -114,15 +114,13 @@ const Certificate = () => {
               <span className="flex-1">Symmetry</span>
               <span className="flex-1 font-semibold">GOOD</span>
             </div>
-            <div className="flex justify-between w-[90%] hover:bg-gray-50">
+            {/* <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Fluorescence</span>
               <span className="flex-1 font-semibold">NONE</span>
-            </div>
+            </div> */}
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className="flex-1">Inscription(s)</span>
-              <span className="flex-1 font-semibold">
-                lagbaronGrc4256725623
-              </span>
+              <span className="flex-1 font-semibold">Custom Pendant</span>
             </div>
           </div>
           <p className="mt-8">
