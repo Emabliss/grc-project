@@ -52,7 +52,7 @@ const Certificate = () => {
           <h2 className="bg-[#c7ba70] p-2 text-slate-600 font-semibold">
             GRC GEMOLOGICAL REPORT
           </h2>
-          <p className="my-2">11/05/2020</p>
+          <p className="my-2 text-gray-400 italic">Since 11/05/2020</p>
           <div className="flex flex-col space-y-3 pt-1 pl-1 bg-gray-100">
             <div className="flex justify-between w-[90%] hover:bg-gray-50">
               <span className=" flex-1">GRC Report Number</span>
